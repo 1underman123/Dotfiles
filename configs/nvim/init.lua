@@ -1,1 +1,6 @@
-/nix/store/21vpgxnyrj964v5dx90f8g75bvqb5bvl-home-manager-files/.config/nvim/init.lua
+require('options')
+require('keymaps')
+require('plugins')
+require('colorscheme')
+require('lsp')
+require("bufferline").setup{}
