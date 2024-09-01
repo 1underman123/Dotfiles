@@ -14,8 +14,9 @@
   # theme everything
   stylix = {
     enable = true;
+    base16Scheme = "${pkgs.base16-schemes}/share/themes/nord.yaml";
+    cursor.package = pkgs.kdePackages.breeze;
     image = /home/underman/Wallpapers/nord/a_taxi_parked_outside_a_restaurant.png;
-    polarity = "dark";
   };
 
   # Bootloader.
