@@ -5,6 +5,7 @@
     sessionVariables = {
       EDITOR = "nvim";
       FLAKE = "/home/underman/Dotfiles/";
+      XDG_CONFIG_HOME = "/home/underman/.config/";
     };
     shellAliases = {
       ".." = "cd ..";

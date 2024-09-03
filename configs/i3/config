@@ -31,7 +31,7 @@ gaps inner 9px
 gaps outer 0px
 
 # Border size for all windows
-for_window [all] border pixel 4
+for_window [all] border pixel 3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.

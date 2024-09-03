@@ -71,7 +71,7 @@ enable-ipc = true
 
 [module/battery-combined-tlp]
 type = custom/script
-exec = ~/scripts/battery-combined-tlp.sh
+exec = /home/underman/Dotfiles/scripts/battery-combined-tlp.sh
 interval = 10
 
 [module/i3]
@@ -126,7 +126,7 @@ fuzzy-match = true
 
 [module/brightness]
 type = custom/script
-exec = ~/scripts/brightness_level.sh
+exec = /home/underman/Dotfiles/scripts/brightness_level.sh
 interval = 2
 
 
